@@ -10,9 +10,9 @@
 	}
 	body {
 		margin: 50px 150px;
+		font-family: 'Raleway';
 	}
 	.d{
-		
 		width: 60%;
 		height: 100%;
 	}
@@ -25,7 +25,6 @@
        		text-align: center;
        		font-size: 27px;
       	 	letter-spacing: 0.1px;
-       		font-family: 'Raleway',sans-serif ;
        		font-weight: 600;
 	}
 	.column {
@@ -34,42 +33,20 @@
   		padding: 10px;
   		height: 100%; 
 	}
-	.row:after {
-  		content: "";
-  		display: table;
-  	}
-  	.trackimg{
+  	.track_img , .lock_img , .live_img , .health_img{
   		display: block;
   		margin-left: auto;
  		margin-right: auto;
   		width: 20%;
   		height: 20%;
   	}
-  	.lockimg{
-  		display: block;
-  		margin-left: auto;
- 		margin-right: auto;
- 		width: 30%;
+  	.lock_img{
+  		width: 30%;
  		height: 20%;
-  	}
-  	.liveimg{
-  		display: block;
-  		margin-left: auto;
- 		margin-right: auto;
- 		width: 20%;
-  		height: 20%;
-  	}
-  	.healthimg{
-  		display: block;
-  		margin-left: auto;
- 		margin-right: auto;
- 		width: 20%;
-  		height: 20%;
   	}
   	.headinternal{
   		text-align: center;
   		font-size: 16px;
-  		font-family: 'Raleway';
   		font-weight: 1000;
   		font-style: normal;
   		letter-spacing: 0.5px;	
@@ -80,14 +57,11 @@
   		font-size: 15px;
   		font-style:normal;
   		color: #A3A3A3;
-  		font-family: 'Raleway';
   		letter-spacing: 0.5px;
   	}
   	h4{
-  		font-family: 'Raleway';
-  		font-weight: bold 800;
+  		font-weight: bold ;
   		color: #323232;
-
   	}
   	.formbox{
   		position: relative;
@@ -113,25 +87,24 @@
   		color: grey;
   	    	font-weight: bold;
   		letter-spacing: -0.5px;
-  		font-family: 'Raleway';
   		font-size: 14px;
   	}
-  	.GradientBorder {
+  	.gradientBorder {
   		top: 30px;
         	position: relative;
         	width: 30%;
         	height: 420px;
-        	margin-left: 80px;]
+        	margin-left: 80px;
         	color: #fff;
         	background: #fff;
         	justify-content: center;
 	}
-	.GradientBorder::after {
+	.gradientBorder::after {
   		content: '';
  		background: linear-gradient( white,grey);
   		z-index: -1;
 	}
-	.GradientBorder::before {
+	.gradientBorder::before {
   		content: '';
   		position: absolute;
   		top: 0;
@@ -147,13 +120,11 @@
 		font-size: 13px;
 		padding-bottom: 10px;
 		font-weight: bold;
-		font-family: 'Raleway'
 	}
 	.btn{
         	padding: 10px;
         	width: 25%;
         	margin-right: 5px;
-        	font-family: 'Raleway';
         	border:2px solid #EFEFEF;
         	background-image: linear-gradient(0deg,#FFF,#FFF);
         	font-weight: bold;
@@ -162,7 +133,7 @@
 	.btnlg{
 		background-image: linear-gradient(0deg,#1EACB2,#1EACB2);
 		padding: 15px;
-		color: white!important;
+		color: white !important;
 		width: 80%;
 		border:none;
 		border-radius: 6px;
@@ -188,29 +159,29 @@
        	<div>
        		<div class="row">
        			<div class="column" style="background-color: #FFF">
-       				<img src="vehicletracking.png" class="trackimg">
+       				<img src="vehicletracking.png" class="track_img">
        				<h4 class="headinternal">INTELLIGENT VEHICLE TRACKING</h4>
        				<p class="paracontent"> Wheather you are single vehicle or a <span style="color: #6399C7">fleet owner</span>, Loconav is determined to protect and monitor your asset from theft or harm</span></p>
        			</div>
        			<div class="column" style="background-color: #FFF" >
-       				<img src="vehiclelock.png" class="lockimg" >
-       			    <h4 class="headinternal">VEHICLE LOCK</h3>
+       				<img src="vehiclelock.png" class="lock_img" >
+       			    <h4 class="headinternal">VEHICLE LOCK</h4>
        				<p class="paracontent"> Turn on vehicle lock from Loconav's <span style="color: #6399C7">mobile app</span> and be assured that your vehicle won't start without your permission</p>
        			</div>
        			<div class="column" style="background-color: #FFF">
-       				<img src="livealerts.png" class="liveimg" >
-       				<h4 class="headinternal">LIVE ALERTS</h3>
+       				<img src="livealerts.png" class="live_img" >
+       				<h4 class="headinternal">LIVE ALERTS</h4>
        				<p class="paracontent"> Get live over-speeding alerts,alerts on entry and exit points,monitor idling in real time ,etc. Vehiccle services and maintenance alerts</p>
        			</div>
        			<div class="column" style="background-color: #FFF" >
-       				<img src="vehiclehealth.png" class="healthimg" >
-       				<h4 class="headinternal">VEHICLE HEALTH</h3>
+       				<img src="vehiclehealth.png" class="health_img" >
+       				<h4 class="headinternal">VEHICLE HEALTH</h4>
        				<p class="paracontent" > Get diagostic,mileage and health report of your vehicle so that you can worry less about your vehicle's well-being and enjoy your time on road</p>
        			</div>
        		</div>
        	</div>
        </div>
-       <div class="GradientBorder">
+       <div class="gradientBorder">
        		<h3 style="margin-left: 33px ; font-family: 'Raleway';margin-top: 40px" >Get an offer on your mobile</h5>
 	   		<input type="number" name="phonenumber" placeholder="Phone Number" class="inputd">
 	   		<input type="number" name="noofvehicle" placeholder="How many vehicles ?" class="inputd">
