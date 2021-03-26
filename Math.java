@@ -95,6 +95,8 @@ public class Math {
         Math mulInt=new Math(7,3);
         Math divInt=new Math(9,3);
         Math string=new Math("hello world");
+        Math m=new Math(1,2);
+        System.out.println(m.a + " "+ m.b);
         System.out.println(string);
         add(sumInt.a,sumInt.b);
         sub(subInt.a,subInt.b);
