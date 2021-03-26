@@ -108,3 +108,4 @@ public class Math {
         sumOfAllIntWhile(1,4);
     }
 }
+ /*  If-else conditional branches are great for variable conditions that result into a boolean, whereas switch statements are great for fixed data values.So in this question if/else condition will be better than switch as a and b are variable*/
